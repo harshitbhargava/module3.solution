@@ -1,0 +1,60 @@
+
+* { 
+	box-sizing: border-box;
+}
+#header-nav {
+	background-color: blue;
+	border-radius: 0px;
+	margin: 0 0 0 0px;
+	border: solid black 3px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px white;
+}
+
+
+#main-content{
+	padding: 0px;
+	width: 100%;
+}
+
+.container .jumbotron {
+	border-radius: 0px;
+	padding-top: 5px;
+	margin: 0px;
+}
+
+section {
+	height: 800px;
+	background-color: white;
+}
+
+
+
+@media (max-width: 767px) {
+	#collapsable-nav{
+	background-color: white;
+	border-top: solid black 3px;
+	}
+	#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	#nav-list li {
+	border-top: solid black 1px;
+	}
+	#nav-list li  a {
+	color: blue;
+	font: bold;
+	font-size: 130%;
+	}
+}
